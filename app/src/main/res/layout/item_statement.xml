@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#EEE"
+    android:layout_margin="16dp"
+    android:padding="8dp"
+
+    >
+
+
+
+    <TextView
+        android:id="@+id/from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:textSize="@dimen/text_title" />
+
+    <TextView
+        android:id="@+id/to"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/from"
+        android:textSize="@dimen/text_title" />
+
+    <TextView
+        android:id="@+id/details"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/to"
+        android:layout_alignStart="@+id/to"
+        android:layout_below="@+id/to"
+        android:textSize="@dimen/text_title" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/details"
+        android:layout_alignStart="@+id/details"
+        android:layout_below="@+id/details"
+        android:textSize="@dimen/text_title" />
+
+
+
+</LinearLayout>
